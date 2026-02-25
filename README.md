@@ -92,6 +92,6 @@ Stellar Testnet
 
 ---
 
-## Author
+## 
 
 Sarthak Ramesh Kshirsagar
