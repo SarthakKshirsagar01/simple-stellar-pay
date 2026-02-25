@@ -1,26 +1,25 @@
-# 🚀 Simple Stellar Pay
+# Simple Stellar Pay
 
-A beginner-friendly Stellar dApp that allows users to connect their Freighter wallet, view their XLM balance, and send XLM to any address on the Stellar Testnet.
+## Project Description
+
+Simple Stellar Pay is a beginner-level decentralized application (dApp) built on the Stellar Testnet. The application allows users to connect their Freighter wallet, view their XLM balance, and send XLM to any valid Stellar address.
+
+This project demonstrates the core fundamentals of Stellar development, including wallet integration, balance retrieval, and transaction submission.
 
 ---
 
-## 📌 Project Description
-
-Simple Stellar Pay is a Level 1 White Belt project built on the Stellar Testnet.
-The application demonstrates core Stellar fundamentals including wallet integration, balance fetching, and XLM transactions.
-
-### ✅ Features
+## Features
 
 * Connect Freighter wallet
 * Disconnect wallet
 * Display XLM balance
 * Send XLM on Stellar Testnet
-* Show transaction success/failure
-* Display transaction hash
+* Show transaction success or failure
+* Display transaction hash to the user
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * React (Vite)
 * Stellar SDK
@@ -29,12 +28,12 @@ The application demonstrates core Stellar fundamentals including wallet integrat
 
 ---
 
-## ⚙️ Setup Instructions (Run Locally)
+## Setup Instructions (Run Locally)
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/simple-stellar-pay.git
+git clone https://github.com/SarthakKshirsagar01/simple-stellar-pay.git
 cd simple-stellar-pay
 ```
 
@@ -44,7 +43,7 @@ cd simple-stellar-pay
 npm install
 ```
 
-### 3. Run the development server
+### 3. Start the development server
 
 ```bash
 npm run dev
@@ -52,48 +51,47 @@ npm run dev
 
 ### 4. Open in browser
 
+Visit:
+
 ```
 http://localhost:5173
 ```
 
 ---
 
-## 🧪 Testnet Requirements
+## Testnet Requirements
 
-Before testing:
+Before testing the application:
 
-* Install Freighter wallet
-* Switch network to **Testnet**
-* Fund account using Friendbot
-
----
-
-## 📸 Screenshots
-
-### 🔌 Wallet Connected
-
-*(add screenshot here)*
-
-### 💰 Balance Displayed
-
-*(add screenshot here)*
-
-### ✅ Successful Transaction
-
-*(add screenshot here)*
-
-### 🧾 Transaction Result Shown
-
-*(add screenshot here)*
+1. Install the Freighter Wallet browser extension
+2. Switch the network to **Testnet**
+3. Fund your wallet using Stellar Friendbot
+4. Use a funded destination address for transfers
 
 ---
 
-## 🌐 Network
+## Screenshots
+
+Wallet Connected
+public/screenshots/wallet-connected.png
+
+Balance Displayed
+public/screenshots/transaction-process.png
+
+Successful Testnet Transaction
+public/screenshots/transaction-success.png
+
+Transaction Result Shown
+public/screenshots/transaction-result.png
+
+---
+
+## Network
 
 Stellar Testnet
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Sarthak Ramesh Kshirsagar
