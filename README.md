@@ -1,16 +1,99 @@
-# React + Vite
+# 🚀 Simple Stellar Pay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly Stellar dApp that allows users to connect their Freighter wallet, view their XLM balance, and send XLM to any address on the Stellar Testnet.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Description
 
-## React Compiler
+Simple Stellar Pay is a Level 1 White Belt project built on the Stellar Testnet.
+The application demonstrates core Stellar fundamentals including wallet integration, balance fetching, and XLM transactions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Features
 
-## Expanding the ESLint configuration
+* Connect Freighter wallet
+* Disconnect wallet
+* Display XLM balance
+* Send XLM on Stellar Testnet
+* Show transaction success/failure
+* Display transaction hash
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* React (Vite)
+* Stellar SDK
+* Freighter Wallet
+* Stellar Testnet
+
+---
+
+## ⚙️ Setup Instructions (Run Locally)
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/simple-stellar-pay.git
+cd simple-stellar-pay
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+### 4. Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧪 Testnet Requirements
+
+Before testing:
+
+* Install Freighter wallet
+* Switch network to **Testnet**
+* Fund account using Friendbot
+
+---
+
+## 📸 Screenshots
+
+### 🔌 Wallet Connected
+
+*(add screenshot here)*
+
+### 💰 Balance Displayed
+
+*(add screenshot here)*
+
+### ✅ Successful Transaction
+
+*(add screenshot here)*
+
+### 🧾 Transaction Result Shown
+
+*(add screenshot here)*
+
+---
+
+## 🌐 Network
+
+Stellar Testnet
+
+---
+
+## 👨‍💻 Author
+
+Sarthak Ramesh Kshirsagar
